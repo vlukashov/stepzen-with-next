@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "cat /.netlify/plugins/node_modules/netlify-plugin-stepzen/node_modules/@stepzen/sdk/package.json",
     "build": "next build",
     "start": "next start"
   },
