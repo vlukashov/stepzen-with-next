@@ -11,3 +11,9 @@
 
 [template]
   incoming-hooks = ["StepZen"]
+
+[template.environment]
+  NEXT_PUBLIC_STEPZEN_API_KEY = "Copy and paste your StepZen API key here."
+  NEXT_PUBLIC_STEPZEN_ENDPOINT = "Copy and paste your API endpoint here."
+  STEPZEN_ACCOUNT = "Add your StepZen account name"  
+  STEPZEN_ADMIN_KEY = "Add your StepZen admin key"
